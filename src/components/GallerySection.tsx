@@ -1,16 +1,18 @@
 import { motion } from "framer-motion";
-import faucetChrome from "@/assets/faucet-chrome.png";
-import faucetInstalled from "@/assets/faucet-installed.png";
-import faucetBrushed from "@/assets/faucet-brushed.png";
-import faucetWall from "@/assets/faucet-wall.png";
-import faucetWc from "@/assets/faucet-wc.png";
+import productQueen from "@/assets/product-queen.jpg";
+import productRuby from "@/assets/product-ruby.jpg";
+import productCosmo from "@/assets/product-cosmo.jpg";
+import craftsmanshipImg from "@/assets/craftsmanship.jpg";
+import interiorImg from "@/assets/business-interior.jpg";
+import heroImg from "@/assets/hero-faucet.jpg";
 
 const images = [
-  { src: faucetChrome, alt: "Chrome health faucet spray in action", span: "md:col-span-1 md:row-span-2" },
-  { src: faucetInstalled, alt: "Health faucet installed with wall-hung WC", span: "md:col-span-1" },
-  { src: faucetBrushed, alt: "Brushed steel health faucet spray", span: "md:col-span-1" },
-  { src: faucetWall, alt: "Wall-mounted health faucet holder", span: "md:col-span-1" },
-  { src: faucetWc, alt: "Complete health faucet setup with WC", span: "md:col-span-1 md:row-span-2" },
+  { src: productQueen, alt: "Chrome health faucet spray in action", span: "md:col-span-1 md:row-span-2" },
+  { src: interiorImg, alt: "Luxury bathroom with health faucet installation", span: "md:col-span-1" },
+  { src: craftsmanshipImg, alt: "Complete health faucet setup with WC", span: "md:col-span-1" },
+  { src: productRuby, alt: "Brushed steel health faucet spray", span: "md:col-span-1" },
+  { src: heroImg, alt: "Wall-hung WC with chrome health faucet", span: "md:col-span-1" },
+  { src: productCosmo, alt: "Wall-mounted health faucet holder", span: "md:col-span-1 md:row-span-2" },
 ];
 
 const GallerySection = () => (
