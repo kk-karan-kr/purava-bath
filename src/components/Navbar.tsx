@@ -5,10 +5,11 @@ import { motion, AnimatePresence } from "framer-motion";
 import puravaLogo from "@/assets/purava-logo.png";
 
 const navLinks = [
-  { label: "About", href: "#about" },
+  { label: "Home", href: "#" },
+  { label: "About Us", href: "#about" },
   { label: "Products", href: "#products" },
-  { label: "Why Purava", href: "#features" },
-  { label: "Partners", href: "#partners" },
+  { label: "Blogs", href: "#blogs" },
+  { label: "Contact Us", href: "#contact" },
 ];
 
 const Navbar = () => {
@@ -52,7 +53,7 @@ const Navbar = () => {
             asChild
             className="bg-accent text-accent-foreground hover:bg-accent/90 font-sans text-sm"
           >
-            <a href="#contact">Contact Us</a>
+            <a href="#contact">Business Inquiry</a>
           </Button>
         </div>
 
@@ -91,7 +92,7 @@ const Navbar = () => {
                 className="bg-accent text-accent-foreground hover:bg-accent/90 font-sans text-sm"
               >
                 <a href="#contact" onClick={() => setMobileOpen(false)}>
-                  Contact Us
+                  Business Inquiry
                 </a>
               </Button>
             </div>
