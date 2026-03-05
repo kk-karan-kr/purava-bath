@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion, AnimatePresence } from "framer-motion";
+import puravaLogo from "@/assets/purava-logo.png";
 
 const navLinks = [
   { label: "About", href: "#about" },
@@ -32,8 +33,8 @@ const Navbar = () => {
       }`}
     >
       <div className="container mx-auto flex items-center justify-between px-6 py-4">
-        <a href="#" className="font-serif text-2xl font-bold tracking-wider text-accent">
-          PURAVA
+        <a href="#" className="flex items-center">
+          <img src={puravaLogo} alt="Purava logo" className="h-10" />
         </a>
 
         {/* Desktop */}

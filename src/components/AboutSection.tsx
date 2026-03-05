@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import craftsmanshipImg from "@/assets/craftsmanship.jpg";
+import craftsmanshipImg from "@/assets/faucet-wc.png";
 
 const stats = [
   { value: "15+", label: "Years of Expertise" },

@@ -1,4 +1,5 @@
 import { Separator } from "@/components/ui/separator";
+import puravaLogo from "@/assets/purava-logo.png";
 
 const Footer = () => (
   <footer className="bg-primary text-primary-foreground py-16">
@@ -6,7 +7,7 @@ const Footer = () => (
       <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
         {/* Brand */}
         <div>
-          <h3 className="font-serif text-2xl font-bold text-accent mb-4">PURAVA</h3>
+          <img src={puravaLogo} alt="Purava logo" className="h-12 mb-4 brightness-0 invert" />
           <p className="text-sm text-primary-foreground/60 font-sans leading-relaxed">
             Premium brass health faucets, hooks, and shower tubes — crafted in India
             with pride and precision.

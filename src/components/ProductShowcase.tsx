@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import productQueen from "@/assets/product-queen.jpg";
-import productRuby from "@/assets/product-ruby.jpg";
-import productCosmo from "@/assets/product-cosmo.jpg";
+import productQueen from "@/assets/faucet-chrome.png";
+import productRuby from "@/assets/faucet-brushed.png";
+import productCosmo from "@/assets/faucet-wall.png";
 
 const products = [
   {
