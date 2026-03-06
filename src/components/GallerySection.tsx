@@ -12,7 +12,7 @@ const images = [
   { src: craftsmanshipImg, alt: "Complete health faucet setup with WC", span: "md:col-span-1" },
   { src: productRuby, alt: "Brushed steel health faucet spray", span: "md:col-span-1" },
   { src: heroImg, alt: "Wall-hung WC with chrome health faucet", span: "md:col-span-1" },
-  { src: productCosmo, alt: "Wall-mounted health faucet holder", span: "md:col-span-1 md:row-span-2" },
+  
 ];
 
 const GallerySection = () => (
