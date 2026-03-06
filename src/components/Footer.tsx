@@ -7,7 +7,7 @@ const Footer = () => (
       <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
         {/* Brand */}
         <div>
-          <img src={puravaLogo} alt="Purava logo" className="h-12 mb-4 brightness-0 invert" />
+          <img src={puravaLogo} alt="Purava logo" className="h-16 mb-4 brightness-0 invert" />
           <p className="text-sm text-primary-foreground/60 font-sans leading-relaxed">
             Premium brass health faucets, hooks, and shower tubes — crafted in India
             with pride and precision.
@@ -55,9 +55,6 @@ const Footer = () => (
           <div className="space-y-3">
             <div className="inline-block border border-accent/30 rounded px-3 py-1.5 text-xs text-accent font-sans">
               🇮🇳 Made in India
-            </div>
-            <div className="inline-block border border-accent/30 rounded px-3 py-1.5 text-xs text-accent font-sans ml-2">
-              ISO Certified
             </div>
             <p className="text-xs text-primary-foreground/40 font-sans mt-2">
               Premium Brass • Corrosion Resistant • Quality Assured

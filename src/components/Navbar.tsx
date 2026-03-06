@@ -20,11 +20,11 @@ const Navbar = () => {
       initial={{ y: -80 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.6 }}
-      className="absolute top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-sm shadow-sm border-b border-border/30"
+      className="sticky top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-sm shadow-sm border-b border-border/30"
     >
       <div className="container mx-auto flex items-center justify-between px-6 py-4">
         <a href="#" className="flex items-center">
-          <img src={puravaLogo} alt="Purava logo" className="h-10" />
+          <img src={puravaLogo} alt="Purava logo" className="h-14" />
         </a>
 
         {/* Desktop */}
@@ -38,6 +38,13 @@ const Navbar = () => {
               {link.label}
             </a>
           ))}
+          <a
+            href="/PURAVA_Catalogue.pdf"
+            download
+            className="text-sm font-medium tracking-wide text-foreground hover:text-accent transition-colors"
+          >
+            Catalogue
+          </a>
           <Button
             asChild
             className="bg-accent text-accent-foreground hover:bg-accent/90 font-sans text-sm"
@@ -76,6 +83,14 @@ const Navbar = () => {
                   {link.label}
                 </a>
               ))}
+              <a
+                href="/PURAVA_Catalogue.pdf"
+                download
+                className="text-sm font-medium text-foreground hover:text-accent transition-colors"
+                onClick={() => setMobileOpen(false)}
+              >
+                Catalogue
+              </a>
               <Button
                 asChild
                 className="bg-accent text-accent-foreground hover:bg-accent/90 font-sans text-sm"
