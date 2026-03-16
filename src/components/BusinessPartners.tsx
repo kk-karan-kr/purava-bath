@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Building2, Gem, TrendingUp } from "lucide-react";
-import faucetModel4 from "@/assets/faucet-model4.jpg";
+import businessInteriorImg from "@/assets/business-interior.jpg";
 
 const values = [
   { icon: Building2, text: "Competitive bulk pricing for large projects" },
