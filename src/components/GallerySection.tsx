@@ -2,13 +2,9 @@ import { motion } from "framer-motion";
 import productQueen from "@/assets/product-queen.jpg";
 import productRuby from "@/assets/product-ruby.jpg";
 import productCosmo from "@/assets/product-cosmo.jpg";
-import faucetModel3 from "@/assets/faucet-model3.jpg";
-import faucetModel4 from "@/assets/faucet-model4.jpg";
-import faucetModel5 from "@/assets/faucet-model5.jpg";
-import faucetModel6 from "@/assets/faucet-model6.jpg";
-import faucetModel7 from "@/assets/faucet-model7.jpg";
-import faucetModel8 from "@/assets/faucet-model8.jpg";
-import faucetModel9 from "@/assets/faucet-model9.jpg";
+import heroImg from "@/assets/hero-faucet.jpg";
+import craftsmanshipImg from "@/assets/craftsmanship.jpg";
+import businessImg from "@/assets/business-interior.jpg";
 
 const images = [
   { src: productQueen, alt: "Purava Queen chrome health faucet", span: "md:col-span-1 md:row-span-2" },

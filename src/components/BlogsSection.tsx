@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 import { ArrowRight, Calendar } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import faucetModel3 from "@/assets/faucet-model3.jpg";
-import faucetModel5 from "@/assets/faucet-model5.jpg";
-import faucetModel9 from "@/assets/faucet-model9.jpg";
+import faucetChrome from "@/assets/faucet-chrome.png";
+import faucetInstalled from "@/assets/faucet-installed.png";
+import craftsmanshipImg from "@/assets/craftsmanship.jpg";
 
 const blogs = [
   {
