@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import craftsmanshipImg from "@/assets/craftsmanship.jpg";
+import faucetModel7 from "@/assets/faucet-model7.jpg";
 
 const stats = [
   { value: "15+", label: "Years of Expertise" },
@@ -19,11 +19,13 @@ const AboutSection = () => (
           transition={{ duration: 0.8 }}
           className="relative"
         >
-          <img
-            src={craftsmanshipImg}
-            alt="Brass faucet craftsmanship"
-            className="rounded-lg shadow-2xl w-full object-cover aspect-[4/3]"
-          />
+          <div className="rounded-lg shadow-2xl w-full aspect-[4/3] bg-muted/30 flex items-center justify-center overflow-hidden">
+            <img
+              src={faucetModel7}
+              alt="Purava premium brass health faucet"
+              className="h-full object-contain"
+            />
+          </div>
           <div className="absolute -bottom-4 -right-4 w-24 h-24 border-2 border-accent rounded-lg" />
         </motion.div>
 
