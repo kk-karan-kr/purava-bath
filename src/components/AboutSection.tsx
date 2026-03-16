@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import faucetModel7 from "@/assets/faucet-model7.jpg";
+import craftsmanshipImg from "@/assets/craftsmanship.jpg";
 
 const stats = [
   { value: "15+", label: "Years of Expertise" },
@@ -21,7 +21,7 @@ const AboutSection = () => (
         >
           <div className="rounded-lg shadow-2xl w-full aspect-[4/3] bg-muted/30 flex items-center justify-center overflow-hidden">
             <img
-              src={faucetModel7}
+              src={craftsmanshipImg}
               alt="Purava premium brass health faucet"
               className="h-full object-contain"
             />
