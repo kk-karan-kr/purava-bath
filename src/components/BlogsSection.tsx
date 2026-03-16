@@ -8,21 +8,21 @@ import craftsmanshipImg from "@/assets/craftsmanship.jpg";
 
 const blogs = [
   {
-    image: faucetModel9,
+    image: faucetChrome,
     date: "Feb 28, 2026",
     title: "Why Health Faucets Are the Future of Modern Bathrooms",
     excerpt:
       "Discover how health faucets combine hygiene, sustainability, and elegance to redefine bathroom standards worldwide.",
   },
   {
-    image: faucetModel3,
+    image: faucetInstalled,
     date: "Jan 15, 2026",
     title: "Choosing the Right Finish: Chrome vs Brushed vs Matte",
     excerpt:
       "A comprehensive guide to selecting the perfect faucet finish that complements your bathroom décor and lifestyle.",
   },
   {
-    image: faucetModel5,
+    image: craftsmanshipImg,
     date: "Dec 10, 2025",
     title: "The Art of Brass Craftsmanship in Faucet Manufacturing",
     excerpt:
