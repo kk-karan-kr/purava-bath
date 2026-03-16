@@ -63,7 +63,7 @@ const BusinessPartners = () => (
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <img
-            src={faucetModel4}
+            src={businessInteriorImg}
             alt="Luxury bathroom with Purava brass fixtures"
             className="rounded-lg shadow-2xl w-full object-cover aspect-[16/10]"
           />

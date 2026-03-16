@@ -8,7 +8,7 @@ const HeroSection = () => (
     {/* Background image */}
     <div className="absolute inset-0">
       <img
-        src={faucetModel8}
+        src={heroImage}
         alt="Premium brass faucet by Purava"
         className="w-full h-full object-cover"
       />
