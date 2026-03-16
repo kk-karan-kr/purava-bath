@@ -2,27 +2,27 @@ import { motion } from "framer-motion";
 import { ArrowRight, Calendar } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import faucetChrome from "@/assets/faucet-chrome.png";
-import faucetInstalled from "@/assets/faucet-installed.png";
-import faucetWall from "@/assets/faucet-wall.png";
+import faucetModel3 from "@/assets/faucet-model3.jpg";
+import faucetModel5 from "@/assets/faucet-model5.jpg";
+import faucetModel9 from "@/assets/faucet-model9.jpg";
 
 const blogs = [
   {
-    image: faucetChrome,
+    image: faucetModel9,
     date: "Feb 28, 2026",
     title: "Why Health Faucets Are the Future of Modern Bathrooms",
     excerpt:
       "Discover how health faucets combine hygiene, sustainability, and elegance to redefine bathroom standards worldwide.",
   },
   {
-    image: faucetInstalled,
+    image: faucetModel3,
     date: "Jan 15, 2026",
     title: "Choosing the Right Finish: Chrome vs Brushed vs Matte",
     excerpt:
       "A comprehensive guide to selecting the perfect faucet finish that complements your bathroom décor and lifestyle.",
   },
   {
-    image: faucetWall,
+    image: faucetModel5,
     date: "Dec 10, 2025",
     title: "The Art of Brass Craftsmanship in Faucet Manufacturing",
     excerpt:
@@ -63,11 +63,11 @@ const BlogsSection = () => {
               transition={{ duration: 0.5, delay: i * 0.15 }}
             >
               <Card className="overflow-hidden border-border/50 bg-card hover:shadow-xl transition-shadow duration-300 group h-full flex flex-col">
-                <div className="aspect-[16/10] overflow-hidden">
+                <div className="aspect-[16/10] overflow-hidden bg-muted/30 flex items-center justify-center">
                   <img
                     src={blog.image}
                     alt={blog.title}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    className="h-full object-contain group-hover:scale-105 transition-transform duration-500"
                   />
                 </div>
                 <CardContent className="p-6 flex flex-col flex-1">

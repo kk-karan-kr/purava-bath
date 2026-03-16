@@ -1,14 +1,14 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ChevronDown } from "lucide-react";
-import heroImage from "@/assets/hero-faucet.jpg";
+import faucetModel8 from "@/assets/faucet-model8.jpg";
 
 const HeroSection = () => (
   <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
     {/* Background image */}
     <div className="absolute inset-0">
       <img
-        src={heroImage}
+        src={faucetModel8}
         alt="Premium brass faucet by Purava"
         className="w-full h-full object-cover"
       />

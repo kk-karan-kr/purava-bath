@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Building2, Gem, TrendingUp } from "lucide-react";
-import interiorImg from "@/assets/business-interior.jpg";
+import faucetModel4 from "@/assets/faucet-model4.jpg";
 
 const values = [
   { icon: Building2, text: "Competitive bulk pricing for large projects" },
@@ -63,7 +63,7 @@ const BusinessPartners = () => (
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <img
-            src={interiorImg}
+            src={faucetModel4}
             alt="Luxury bathroom with Purava brass fixtures"
             className="rounded-lg shadow-2xl w-full object-cover aspect-[16/10]"
           />
