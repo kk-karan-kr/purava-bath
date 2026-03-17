@@ -1,7 +1,8 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Building2, Gem, TrendingUp } from "lucide-react";
-import businessInteriorImg from "@/assets/business-interior.jpg";
+import craftsmanshipImg from "@/assets/craftsmanship.jpg";
+import handshakeImg from "@/assets/handshake.jpg"
 
 const values = [
   { icon: Building2, text: "Competitive bulk pricing for large projects" },
@@ -63,8 +64,8 @@ const BusinessPartners = () => (
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <img
-            src={businessInteriorImg}
-            alt="Luxury bathroom with Purava brass fixtures"
+            src={handshakeImg}
+            alt="Purava product craftsmanship for business partners"
             className="rounded-lg shadow-2xl w-full object-cover aspect-[16/10]"
           />
         </motion.div>
